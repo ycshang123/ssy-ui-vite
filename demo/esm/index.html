@@ -1,0 +1,42 @@
+<!--
+ * @Author: ycshang
+ * @Date: 2023-01-03 22:45:05
+ * @LastEditors: ycshang
+ * @LastEditTime: 2023-01-03 22:45:12
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+
+<body>
+    <h1>index</h1>
+    <div id="app"></div>
+    <script type="module">
+        import { createApp } from "vue/dist/vue.esm-bundler.js"
+        import SSYUI, {
+            SButton,
+            SFCButton,
+            JSXButton,
+        } from "../../dist/ssy-ui.esm.js"
+
+        createApp({
+            template: `
+        <SButton/>
+        <JSXButton/>
+        <SFCButton/>
+      `,
+        })
+            .component(SButton.name, SButton)
+            .component(SFCButton.name, SFCButton)
+            .component(JSXButton.name, JSXButton)
+            .mount("#app");
+    </script>
+</body>
+
+</html>
