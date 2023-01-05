@@ -1,0 +1,10 @@
+###
+ # @Author: ycshang
+ # @Date: 2023-01-05 21:38:15
+ # @LastEditors: ycshang
+ # @LastEditTime: 2023-01-05 21:39:28
+### 
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+pnpm run test:run

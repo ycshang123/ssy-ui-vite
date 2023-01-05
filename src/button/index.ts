@@ -1,14 +1,10 @@
 /*
  * @Author: ycshang
- * @Date: 2023-01-03 22:32:36
+ * @Date: 2023-01-04 22:59:40
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-03 22:32:53
+ * @LastEditTime: 2023-01-04 22:59:50
  */
-import { defineComponent, h } from "vue";
+import Button from "./Button";
 
-export default defineComponent({
-    name: "SButton",
-    render() {
-        return h("button", null, "SButton");
-    },
-});
+// 导出Button组件
+export default Button;
