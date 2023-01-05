@@ -1,9 +1,3 @@
-###
- # @Author: ycshang
- # @Date: 2023-01-05 21:34:05
- # @LastEditors: ycshang
- # @LastEditTime: 2023-01-05 21:36:13
-### 
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
