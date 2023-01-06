@@ -2,7 +2,7 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:34:42
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-05 22:14:21
+ * @LastEditTime: 2023-01-05 22:45:55
  */
 /// <reference types="vitest" />
 import { defineConfig } from "vite";
@@ -33,13 +33,15 @@ export default defineConfig({
 
   build: {
     rollupOptions,
-    minify: false,
+    minify: "terser", // boolean | 'terser' | 'esbuild'
+    sourcemap: true, // 输出单独 source文件
+    brotliSize: true, // 生成压缩大小报告
     cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
       name: "SSYUI",
       fileName: "ssy-ui",
-      formats: ["esm", "umd", "iife"],
+      formats: ["esm", "umd", "iife"], // 导出模块类型
     },
   },
 
