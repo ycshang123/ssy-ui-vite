@@ -2,8 +2,9 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:34:42
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-06 16:22:51
+ * @LastEditTime: 2023-01-07 10:04:52
  */
+
 /// <reference types="vitest" />
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
@@ -45,10 +46,6 @@ export const config = {
     // 支持tsx组件，很关键
     transformMode: {
       web: [/.[tj]sx$/],
-    },
-    coverage: {
-      provider: "istanbul", // or 'c8',
-      reporter: ["text", "json", "html"],
     },
   },
 };

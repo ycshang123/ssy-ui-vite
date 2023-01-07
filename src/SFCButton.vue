@@ -4,7 +4,8 @@
  * @LastEditors: ycshang
  * @LastEditTime: 2023-01-03 22:35:15
 -->
-<template>
+
+<!--<template>
   <button>SFC Button</button>
 </template>
 
@@ -12,4 +13,4 @@
 export default {
   name: "SFCButton",
 };
-</script>
+</script>-->

@@ -1,0 +1,5 @@
+{
+            "name": "ssy-ui-vite/Link",
+            "main": "index.umd.js",
+            "module": "index.umd.js"
+        }

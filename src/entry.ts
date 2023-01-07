@@ -2,22 +2,17 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:42:21
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-03 22:42:48
+ * @LastEditTime: 2023-01-07 10:24:17
  */
 import { App } from "vue";
-import SButton from "./button";
-import SFCButton from "./SFCButton.vue";
-import JSXButton from "./JSXButton";
-
+import { Button } from "./Button";
 // 导出单独组件
-export { SButton, SFCButton, JSXButton };
+export { Button };
 
 // 编写一个插件，实现一个install方法
 
 export default {
   install(app: App): void {
-    app.component(SButton.name, SButton);
-    app.component(SFCButton.name, SFCButton);
-    app.component(JSXButton.name, JSXButton);
+    app.component(Button.name, Button);
   },
 };

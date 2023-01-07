@@ -1,4 +1,4 @@
-import { defineComponent, createVNode, openBlock, createElementBlock, createTextVNode } from "vue";
+import { defineComponent, createVNode } from "vue";
 const __uno = "";
 const props = {
   size: {
@@ -68,37 +68,13 @@ const Button = defineComponent({
     }, null) : "", slots.default ? slots.default() : ""]);
   }
 });
-const _sfc_main = {
-  name: "SFCButton"
-};
-const _export_sfc = (sfc, props2) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props2) {
-    target[key] = val;
-  }
-  return target;
-};
-function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return openBlock(), createElementBlock("button", null, "SFC Button");
-}
-const SFCButton = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
-const JSXButton = defineComponent({
-  name: "JSXButton",
-  render() {
-    return createVNode("button", null, [createTextVNode("JSX Button")]);
-  }
-});
 const entry = {
   install(app) {
     app.component(Button.name, Button);
-    app.component(SFCButton.name, SFCButton);
-    app.component(JSXButton.name, JSXButton);
   }
 };
 export {
-  JSXButton,
-  Button as SButton,
-  SFCButton,
+  Button,
   entry as default
 };
 //# sourceMappingURL=ssy-ui.esm.js.map

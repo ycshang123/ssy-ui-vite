@@ -1,0 +1,5 @@
+{
+            "name": "ssy-ui-vite/Button",
+            "main": "index.umd.js",
+            "module": "index.umd.js"
+        }
