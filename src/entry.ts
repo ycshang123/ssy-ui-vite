@@ -2,10 +2,10 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:42:21
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-07 10:24:17
+ * @LastEditTime: 2023-01-07 11:06:27
  */
 import { App } from "vue";
-import { Button } from "./Button";
+import Button = require("./Button");
 // 导出单独组件
 export { Button };
 
@@ -13,6 +13,6 @@ export { Button };
 
 export default {
   install(app: App): void {
-    app.component(Button.name, Button);
+    app.component(Button.Button.name, Button);
   },
 };
