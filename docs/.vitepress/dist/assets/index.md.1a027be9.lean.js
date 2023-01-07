@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,e as i}from"./app.f5bc149c.js";const f='{"title":"\u{1F528} SSY-UI-VITE \u662F\u4EC0\u4E48?","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}',n={},s=i("",13),r=[s];function o(c,p,d,l,u,h){return t(),a("div",null,r)}var m=e(n,[["render",o]]);export{f as __pageData,m as default};
