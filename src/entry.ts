@@ -2,10 +2,11 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:42:21
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-07 10:24:17
+ * @LastEditTime: 2023-01-07 11:41:42
  */
 import { App } from "vue";
 import { Button } from "./Button";
+import "uno.css";
 // 导出单独组件
 export { Button };
 
