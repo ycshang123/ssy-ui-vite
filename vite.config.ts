@@ -2,7 +2,7 @@
  * @Author: ycshang
  * @Date: 2023-01-03 22:34:42
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-07 10:04:52
+ * @LastEditTime: 2023-01-09 17:01:47
  */
 
 /// <reference types="vitest" />
@@ -46,6 +46,10 @@ export const config = {
     // 支持tsx组件，很关键
     transformMode: {
       web: [/.[tj]sx$/],
+    },
+    coverage: {
+      provider: "istanbul", // or 'c8',
+      reporter: ["text", "json", "html"],
     },
   },
 };
