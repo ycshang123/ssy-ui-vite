@@ -2,11 +2,11 @@
  * @Author: ycshang
  * @Date: 2023-01-09 16:10:20
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-09 16:26:54
+ * @LastEditTime: 2023-01-09 16:34:54
 -->
 <br>
 <p align="center">
-<img src="https://cdn.staticaly.com/gh/ycshang123/image-hosting@master/logo-(2).1lpb7spjgse8.webp" style="width:400px;" />
+<img src="https://cdn.staticaly.com/gh/ycshang123/image-hosting@master/github_logo.1j9kvv7t60io.webp" style="width:320px;" />
 </p>
 <p align="center">
   基于 Vite 栈的前端工程化实践
