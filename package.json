@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "module": "./dist/ssy-ui.esm.js",
+  "homepage": "https://ycshang-ui-vite.vercel.app/",
   "scripts": {
     "dev": "vite",
     "test": "vitest",
