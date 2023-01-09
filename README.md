@@ -2,7 +2,7 @@
  * @Author: ycshang
  * @Date: 2023-01-09 16:10:20
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-09 16:34:54
+ * @LastEditTime: 2023-01-09 17:15:38
 -->
 <br>
 <p align="center">
@@ -14,6 +14,9 @@
 
 <p align="center">
 <img src="https://img.shields.io/github/license/ycshang123/ssy-ui-vite?color=%23b2ebf2&style=plastic">
+<a href="https://codecov.io/github/ycshang123/ssy-ui-vite" >
+<img src="https://codecov.io/github/ycshang123/ssy-ui-vite/branch/main/graph/badge.svg?token=8688BWSZCW"/>
+</a>
 </p>
 
 ## Features
