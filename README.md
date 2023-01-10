@@ -2,7 +2,7 @@
  * @Author: ycshang
  * @Date: 2023-01-09 16:10:20
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-09 17:15:38
+ * @LastEditTime: 2023-01-10 22:34:26
 -->
 <br>
 <p align="center">
@@ -55,3 +55,6 @@
 ## Quick Start
 
 如果希望尽快上手，可以访问 [Getting Started](https://ycshang-ui-vite.vercel.app/)
+
+## 欢迎提PR
+一起加入项目
