@@ -2,7 +2,7 @@
  * @Author: ycshang
  * @Date: 2023-01-16 15:09:59
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-16 17:42:21
+ * @LastEditTime: 2023-01-16 21:56:16
  */
 import handlebars from "handlebars";
 import fs from "fs";
@@ -50,7 +50,6 @@ function generateCode(meta, filePath, templatePath) {
  */
 async function getComponents(input) {
     const entry = await require(input);
-
     return Object.keys(entry)
         .filter((k) => k !== "default")
         .map((k) => ({
