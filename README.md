@@ -3,7 +3,6 @@
  * @Author: ycshang
  * @Date: 2023-01-09 16:10:20
  * @LastEditors: ycshang
- * @LastEditTime: 2023-01-15 12:02:34
 -->
 <br>
 <p align="center">
@@ -23,7 +22,6 @@
 ## Features
 
 # ssy-ui-vite
-
 
 - 基于 Vue 框架
 - 支持 JSX 与 Vue 单文件组件
@@ -59,4 +57,8 @@
 ## Quick Start
 
 如果希望尽快上手，可以访问 [Getting Started](https://ycshang-ui-vite.vercel.app/)
+
+## 欢迎提PR
+
+一起加入项目
 
